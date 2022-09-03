@@ -11,8 +11,13 @@ body{
     font-size: 13px;
 }
 
+header {
+    background-color: #232f3e;
+}
+
 .logo img {
     height: auto;
     width: 100%;
     
 }
+
