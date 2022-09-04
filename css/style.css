@@ -13,11 +13,16 @@ body{
 
 header {
     background-color: #232f3e;
+    color: #fff;
 }
 
 .logo img {
     height: auto;
     width: 100%;
     
+}
+
+.icon {
+    color: #fff;
 }
 
