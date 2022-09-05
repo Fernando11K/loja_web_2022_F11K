@@ -17,12 +17,18 @@ header {
 }
 
 nav {
+
+    border: 1px solid rgb(14, 13, 13);
+    background-color: #222;
  
 
 }
 
 nav a {
+    display: inline-block;
+    padding: 3px 10px;
     text-decoration: none;
+    color: #fff;
 
 }
 .logo img {
