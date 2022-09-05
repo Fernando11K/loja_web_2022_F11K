@@ -16,6 +16,10 @@ header {
     color: #fff;
 }
 
+nav {
+    text-decoration: none;
+
+}
 .logo img {
     height: auto;
     width: 100%;
