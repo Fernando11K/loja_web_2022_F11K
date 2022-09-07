@@ -15,7 +15,7 @@ header {
     background-color: #131921;
     color: #fff;
 }
-
+/* By: me */
 nav {
 
     border: 1px solid rgb(14, 13, 13);
@@ -71,7 +71,47 @@ nav {
     width: 100%;
 
 }
-
+/*  */
 .icon {
     color: #fff;
+}
+
+.formPesquisa {
+    
+    background-color: #fff;
+}
+
+.formPesquisa select, .formPesquisa input, .formPesquisa button {
+    height: 40px;
+    border: none;
+
+
+}
+
+.formPesquisa select {
+    background-color: #dadada;
+    padding-left: 10px;
+   
+
+}
+
+.formPesquisa input {
+   
+    
+    
+
+}
+
+.formPesquisa button {
+    padding: 0 10px;
+    float: right;
+    
+
+}
+
+@media(max-width: 760px) {
+    .formPesquisa select {
+
+        display: none;
+    }
 }
