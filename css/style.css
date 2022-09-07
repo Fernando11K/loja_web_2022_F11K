@@ -18,31 +18,52 @@ header {
 
 nav {
 
-   
     border: 1px solid rgb(14, 13, 13);
     background-color: #222f3e;
-    overflow: hidden;
+    overflow: auto;
+
 
 
 }
 
-nav a {
-   
+.hiperlinknav {
+
     display: inline-block;
-    padding: 13px 10px; 
+
+
+}
+
+.hiperlinknav a {
+
+    display: inline-block;
+    padding: 13px 10px;
     text-decoration: none;
     font-size: 14px;
     color: #fff;
-    
+
+
+
+
 }
 
-nav img {
+.imgnavbar {
 
+    border: red solid 1px;
     float: right;
-    
-    
+
+
+
+
 }
 
+@media(max-width: 1178px) {
+    [class="imgnavbar"] {
+        float: left;
+        
+        
+    }
+
+}
 
 
 .logo img {
