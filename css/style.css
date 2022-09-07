@@ -20,13 +20,13 @@ header {
 
 
 .icon {
-    color: #fff;
+    color: var(--white);
 }
 
 .formPesquisa {
 
-    border: 3px solid #efbd69;
-    background-color: #fff;
+    border: 3px solid ;
+    background-color: var(--white);
     border-radius: 10px;
     
 }

@@ -1,7 +1,31 @@
 .black {
-    color: #222;
+    color: var(--black);
 }
 
-.bg-gray {
-    background-color: rgb(222, 213, 213);
+.bg-black {
+   background-color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-white {
+    background-color: var(--white) ;
+}
+.grey {
+
+    color: var(--grey);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.gold {
+   color: var(--gold);
+}
+
+.bg-gold {
+    background-color: var(--gold);
 }
