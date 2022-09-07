@@ -15,6 +15,7 @@ header {
     background-color: #131921;
     color: #fff;
 }
+
 /* By: me */
 nav {
 
@@ -59,8 +60,8 @@ nav {
 @media(max-width: 1178px) {
     [class="imgnavbar"] {
         float: left;
-        
-        
+
+
     }
 
 }
@@ -71,17 +72,23 @@ nav {
     width: 100%;
 
 }
+
 /*  */
 .icon {
     color: #fff;
 }
 
 .formPesquisa {
-    
+
     background-color: #fff;
+    border-radius: 10px;
+    
 }
 
-.formPesquisa select, .formPesquisa input, .formPesquisa button {
+.formPesquisa select,
+.formPesquisa input,
+.formPesquisa button {
+
     height: 40px;
     border: none;
 
@@ -91,21 +98,30 @@ nav {
 .formPesquisa select {
     background-color: #dadada;
     padding-left: 10px;
+    width: 35%;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
    
+
 
 }
 
 .formPesquisa input {
-   
-    
-    
+    width: 48%;
+
+
 
 }
 
 .formPesquisa button {
     padding: 0 10px;
     float: right;
-    
+    width: 15%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 
 }
 
@@ -113,5 +129,15 @@ nav {
     .formPesquisa select {
 
         display: none;
+    }
+
+    .formPesquisa input {
+        width: 85%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding-left: 10px;
+
+
+
     }
 }
