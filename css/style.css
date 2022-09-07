@@ -1,8 +1,8 @@
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-family: var(--font-Arial);
+    font-size: var(--fs-12);
 }
 
 /* Header */
