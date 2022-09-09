@@ -132,9 +132,9 @@ nav {
 }
 
 @media(max-width: 1176px) {
-    nav{
+    nav {
         text-align: center;
-        
+
     }
 
 }
@@ -142,12 +142,12 @@ nav {
 @media(max-width: 1176px) {
     [class="imgnavbar"] {
 
-       
+
         display: block;
         float: none;
-        
-       
-        
+
+
+
 
 
 
@@ -158,6 +158,24 @@ nav {
 
 /* Fim Nav */
 section div {
+    background-color: #ffe48b;
+    
+    
    
-    background-color: aqua;
+}
+
+.propaganda {
+  
+}
+
+.blocos {
+    display: inline-block;
+    background-color: #fefffb;
+    border: #131921 solid 3px;
+    height: 420px;
+    width: 24%;
+    
+   
+   
+    
 }
