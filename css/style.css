@@ -1,6 +1,7 @@
 body {
     font-family: var(--font-Arial);
     font-size: var(--fs-12);
+    
 }
 
 /* Header */
@@ -179,12 +180,16 @@ section div {}
 .propaganda {
 
     position: relative;
+   
 }
 
 .containerblocos {
 
     position: absolute;
     top: 45%;
+    padding-left: 6%;
+    padding-right: 6%;
+
 
 }
 
@@ -195,6 +200,10 @@ section div {}
     border: #131921 solid 3px;
     width: 288.33px;
     height: 420px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 10px ;
+
 
 
 
