@@ -71,6 +71,12 @@ header {
 
 }
 
+.carrinho i {
+
+    color: rgb(244, 250, 244);
+    font-size: 38px ;
+}
+
 @media(max-width: 760px) {
     .formPesquisa select {
 
@@ -155,6 +161,7 @@ nav {
     }
 
 }
+
 
 /* Fim Nav */
 section div {
