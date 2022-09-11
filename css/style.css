@@ -27,6 +27,7 @@ header {
     background-color: var(--white);
     border-radius: 10px;
 
+
 }
 
 .formPesquisa select,
@@ -36,6 +37,7 @@ header {
     height: 40px;
     border: none;
     outline: none;
+
 
 
 }
@@ -71,14 +73,16 @@ header {
 
 }
 
-.carrinho {
-    
+.login span {
+    display: block;
 }
+
+.carrinho {}
 
 .carrinho i {
 
     color: rgb(244, 250, 244);
-    font-size: 38px ;
+    font-size: 38px;
 }
 
 @media(max-width: 760px) {
@@ -168,25 +172,34 @@ nav {
 
 
 /* Fim Nav */
-section div {
-    background-color: #ffe48b;
-    
-    
-   
-}
+
+/* Início */
+section div {}
 
 .propaganda {
-  
+
+    position: relative;
+}
+
+.containerblocos {
+
+    position: absolute;
+    top: 45%;
+
 }
 
 .blocos {
+
     display: inline-block;
     background-color: #fefffb;
     border: #131921 solid 3px;
+    width: 288.33px;
     height: 420px;
-    width: 24%;
-    
-   
-   
-    
+
+
+
+
+
+
+
 }
