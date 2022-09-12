@@ -78,7 +78,9 @@ header {
     display: block;
 }
 
-.carrinho {}
+.carrinho {
+    
+}
 
 .carrinho i {
 
@@ -203,7 +205,6 @@ section div {}
     margin-top: 15px;
     margin-left: 15px;
     padding: 10px ;
-
 
 
 
