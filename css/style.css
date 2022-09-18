@@ -122,8 +122,8 @@ nav ul li {
 
 .carousel {
 
-    /* position: relative; */
-    height: 200px;
+    height: 100%;
+    min-height: 200px;
   
 
 }
@@ -136,8 +136,18 @@ nav ul li {
 
 }
 
-.produto item {
+.produto-item {
 
 }
+.produto-comum {
+
+}
+.produto-amazon{
+
+}
+.produto-noticia{
+
+}
+
 
 /* Fim Section */
