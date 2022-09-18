@@ -131,7 +131,7 @@ nav ul li {
 
 .produto {
     padding: 0 5px;
-    height: 350px ;
+   
    
 
 }
@@ -141,31 +141,50 @@ nav ul li {
     color: var(--black);
 }
 
+.produto-comum .valor span {
+    text-decoration: line-through;
+
+}
+
+.produto .descricao {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.produto-comum ,
+.produto-amazon ,
+.produto-noticia ,
+.produto-item {
+    padding: 15px;
+    background-color: var(--white);
+    height: 330px;
+}
 
 .produto-comum div {
-    height: 50%;
+    height: 65%;
     overflow: hidden;
     text-align: center;
    
 }
 
-.produto-comum .valor span {
-    text-decoration: line-through ;
-
-}
-.produto-comum img {
-
-}
-
-
-.produto-amazon{
+.produto-amazon div{
+    width: 30%;
+    float: left;
+    
 
 }
 .produto-noticia{
 
 }
 
-.produto-item {}
+.produto-item div {
+    max-height: 130px;
+    min-height: 100px;
+    margin-bottom: 15px;
+}
 
 
 /* Fim Section */
