@@ -6,7 +6,7 @@ body {
 
 /* Header */
 header {
-    background-color: #131921;
+    background-color: var(--blue-dark);
     color: #fff;
 }
 
@@ -78,9 +78,6 @@ header {
     display: block;
 }
 
-.carrinho {
-    
-}
 
 .carrinho i {
 
@@ -108,108 +105,39 @@ header {
 /* Fim Header */
 
 /* Início Nav */
-nav {
 
-    border: 1px solid rgb(14, 13, 13);
-    background-color: #222f3e;
-    overflow: auto;
-
-
-
-}
-
-.hiperlinknav {
-
-    display: inline-block;
-
-
-}
-
-.hiperlinknav a {
-
-    display: inline-block;
-    padding: 13px 10px;
+.menu a {
+    color: var(--white);
     text-decoration: none;
-    font-size: 14px;
-    color: #fff;
-
-
-
-
 }
 
-.imgnavbar {
+nav ul li {
 
-
-    float: right;
-
-
-
+    display: inline-block;
 
 }
-
-@media(max-width: 1176px) {
-    nav {
-        text-align: center;
-
-    }
-
-}
-
-@media(max-width: 1176px) {
-    [class="imgnavbar"] {
-
-
-        display: block;
-        float: none;
-
-
-
-
-
-
-
-    }
-
-}
-
-
 /* Fim Nav */
 
-/* Início */
-section div {}
+/* Início section */
 
-.propaganda {
+.carousel {
 
-    position: relative;
-   
-}
-
-.containerblocos {
-
-    position: absolute;
-    top: 45%;
-    padding-left: 6%;
-    padding-right: 6%;
-
+    /* position: relative; */
+    height: 200px;
+  
 
 }
 
-.blocos {
 
-    display: inline-block;
-    background-color: #fefffb;
-    border: #131921 solid 3px;
-    width: 288.33px;
-    height: 420px;
-    margin-top: 15px;
-    margin-left: 15px;
-    padding: 10px ;
+.produto {
 
-
-
-
-
-
+    padding: 0 5px;
+    
 
 }
+
+.produto item {
+
+}
+
+/* Fim Section */
