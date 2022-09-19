@@ -1,6 +1,7 @@
 body {
     font-family: var(--font-Arial);
     font-size: var(--fs-12);
+    background-color: #EAEDED;
     
 }
 
@@ -136,7 +137,7 @@ nav ul li {
 
 .produto {
     padding: 0 5px;
-   border: 1px solid black;
+  
    
 
 }
@@ -212,12 +213,24 @@ nav ul li {
    
   
 }
+/*  */
 
+.produto-crianca {}
+
+.produto-frete {}
+
+.produto-oferta {}
+
+/* .produto-compra p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
 
 .produto-compra, 
 .produto-crianca, 
 .produto-frete, 
 .produto-oferta {
+    
     
     padding: 15px;
     background-color: var(--white);
@@ -234,12 +247,34 @@ nav ul li {
    
      
 }
-.produto-crianca{
-}
-.produto-frete{
+/*  */
+
+/* .produto-info img {
+    border: 1px red solid;
+} */
+
+.produto-serie,
+.produto-filme,
+.produto-info,
+.produto-disco {
+
+
+    padding: 15px;
+    background-color: var(--white);
+    height: 330px;
 
 }
-.produto-oferta{
+.produto-info p {
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.produto-info div {
+
+    float: left;
+    width: 50%;
+    padding: 1%;
 
 }
 
