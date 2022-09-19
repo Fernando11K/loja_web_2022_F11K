@@ -136,7 +136,7 @@ nav ul li {
 
 .produto {
     padding: 0 5px;
-   
+   border: 1px solid black;
    
 
 }
@@ -186,9 +186,61 @@ nav ul li {
 }
 
 .produto-item div {
+    background-color: aqua;
     max-height: 130px;
     min-height: 100px;
     margin-bottom: 15px;
+    
+}
+
+.produto-item div{
+
+   
+}
+
+.produto-item span{
+
+    padding: 5px 11px;
+    border-radius: 8px;
+    background-color: #FFD815;
+    border:groove 1px #FFD815;
+    
+    
+}
+
+.produto-item a {
+   
+  
+}
+
+
+.produto-compra, 
+.produto-crianca, 
+.produto-frete, 
+.produto-oferta {
+    
+    padding: 15px;
+    background-color: var(--white);
+    height: 330px;
+
+}
+
+
+.produto-compra div{
+  
+    float: left;
+    width: 50%;
+    padding: 1%;
+   
+     
+}
+.produto-crianca{
+}
+.produto-frete{
+
+}
+.produto-oferta{
+
 }
 
 
