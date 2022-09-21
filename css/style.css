@@ -1,7 +1,7 @@
 body {
     font-family: var(--font-Arial);
     font-size: var(--fs-12);
-    background-color: #EAEDED;
+    background-color: var(--grey);
     
 }
 
@@ -110,7 +110,7 @@ header {
 .menu a {
     color: var(--white);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1.0em;
     padding: 10px;
     
 }
@@ -124,15 +124,28 @@ nav ul li {
 }
 /* Fim Nav */
 
-/* Início section */
+/* Carousel */
 
 .carousel {
-   
     height: 100%;
-    min-height: 200px;
-  
+    min-height: 500px;
+    background-image: url(./img/banner/propaganda.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
 
 }
+/* Fim Carousel */
+
+/* Início section */
+
+.section {
+    background-image:linear-gradient(transparent,var(--grey)30%) ;
+    position: relative;
+    top: -250px;
+}
+
+
 
 
 .produto {
@@ -171,7 +184,7 @@ nav ul li {
 }
 
 .produto-comum div {
-    height: 65%;
+    height: 60%;
     overflow: hidden;
     text-align: center;
    
@@ -290,6 +303,15 @@ nav ul li {
     
   
 }
+/* .saibaMais a {
+    color: var(--green);
+    font-weight: 600;
+}
+
+.saibaMais a:hover {
+    color: var(orange);
+    text-decoration: underline;
+} */
 
 
 /* Fim Section */
