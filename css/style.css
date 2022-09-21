@@ -81,9 +81,11 @@ header {
   
 }
 
-.quantidadeItens {
 
+.car-Itens {
+    font-weight: bold;
     font-size: 16px; 
+   
     color: goldenrod;
     position: relative;
     top: -5px;
