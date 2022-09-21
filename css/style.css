@@ -9,6 +9,7 @@ body {
 header {
     background-color: var(--blue-dark);
     color: #fff;
+    
 }
 
 
@@ -77,13 +78,30 @@ header {
 
 .login span {
     display: block;
+  
 }
 
+.quantidadeItens {
+
+    font-size: 16px; 
+    color: goldenrod;
+    position: relative;
+    top: -5px;
+    right: -29px;
+  
+    
+    
+}
 
 .carrinho i {
 
-    color: rgb(244, 250, 244);
+    color: var(--white);
     font-size: 38px;
+   
+ 
+  
+   
+  
 }
 
 @media(max-width: 760px) {
@@ -129,7 +147,7 @@ nav ul li {
 .carousel {
     height: 100%;
     min-height: 500px;
-    background-image: url(./img/banner/propaganda.jpg);
+    background-image: url(/img/banner/propaganda.jpg);
     background-position: top;
     background-size: cover;
     position: relative;
@@ -139,7 +157,7 @@ nav ul li {
 
 /* Início section */
 
-.section {
+section {
     background-image:linear-gradient(transparent,var(--grey)30%) ;
     position: relative;
     top: -250px;
