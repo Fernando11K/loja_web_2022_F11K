@@ -2,14 +2,14 @@ body {
     font-family: var(--font-Arial);
     font-size: var(--fs-12);
     background-color: var(--grey);
-    
+
 }
 
 /* Header */
 header {
     background-color: var(--blue-dark);
     color: #fff;
-    
+
 }
 
 
@@ -26,7 +26,7 @@ header {
 
 .formPesquisa {
 
-    border: 3px solid ;
+    border: 3px solid;
     background-color: var(--white);
     border-radius: 10px;
 
@@ -78,33 +78,33 @@ header {
 
 .login span {
     display: block;
-  
+
 }
 
 
 
 .car-Itens {
     font-weight: bold;
-    font-size: 16px; 
-   
+    font-size: 16px;
+
     color: goldenrod;
     position: relative;
     top: -5px;
     right: -29px;
-  
-    
-    
+
+
+
 }
 
 .carrinho i {
 
     color: var(--white);
     font-size: 38px;
-   
- 
-  
-   
-  
+
+
+
+
+
 }
 
 @media(max-width: 760px) {
@@ -133,7 +133,7 @@ header {
     text-decoration: none;
     font-size: 1.0em;
     padding: 10px;
-    
+
 }
 
 
@@ -143,6 +143,7 @@ nav ul li {
     display: inline-block;
 
 }
+
 /* Fim Nav */
 
 /* Carousel */
@@ -156,12 +157,57 @@ nav ul li {
     position: relative;
 
 }
+
+.produtos-categoria-carousel-item {
+
+    height: 250px;
+
+}
+
+.produtos-categoria-carousel a {
+    color: var(--black);
+    font-size: 12px;
+
+
+}
+
+.produtos-categoria-carousel {
+    position: relative;
+
+
+}
+
+.setas {
+    position: absolute;
+    top: 90px;
+    font-size: 34px;
+    color: var(--white);
+    background-color: #ffffff55;
+    width: 50px;
+    height: 100px;
+    padding-top: 25px;
+}
+
+.setas i {
+    font-size: 54px;
+    color: var(--white);
+    
+}
+
+.setas-right {
+    right: 5px;
+}
+
+.setas-left {
+    left: 5px;
+}
+
 /* Fim Carousel */
 
 /* Início section */
 
 section {
-    background-image:linear-gradient(transparent,var(--grey)30%) ;
+    background-image: linear-gradient(transparent, var(--grey)30%);
     position: relative;
     top: -250px;
 }
@@ -171,8 +217,8 @@ section {
 
 .produto {
     padding: 0 5px;
-  
-   
+
+
 
 }
 
@@ -194,9 +240,9 @@ section {
     width: 100%;
 }
 
-.produto-comum ,
-.produto-amazon ,
-.produto-noticia ,
+.produto-comum,
+.produto-amazon,
+.produto-noticia,
 .produto-item {
     padding: 15px;
     background-color: var(--white);
@@ -208,13 +254,13 @@ section {
     height: 60%;
     overflow: hidden;
     text-align: center;
-   
+
 }
 
-.produto-amazon div{
+.produto-amazon div {
     width: 30%;
     float: left;
-    
+
 
 }
 
@@ -223,28 +269,23 @@ section {
     max-height: 130px;
     min-height: 100px;
     margin-bottom: 15px;
-    
+
 }
 
-.produto-item div{
-    
-    
-}
+.produto-item div {}
 
-.produto-item span{
-    
+.produto-item span {
+
     padding: 5px 11px;
     border-radius: 8px;
     background-color: #FFD815;
-    border:groove 1px #FFD815;
-    
-    
+    border: groove 1px #FFD815;
+
+
 }
 
-.produto-item a {
-    
-  
-}
+.produto-item a {}
+
 /*  */
 
 .produto-crianca {}
@@ -258,12 +299,12 @@ section {
     text-overflow: ellipsis;
 } */
 
-.produto-compra, 
-.produto-crianca, 
-.produto-frete, 
+.produto-compra,
+.produto-crianca,
+.produto-frete,
 .produto-oferta {
-    
-    
+
+
     padding: 15px;
     background-color: var(--white);
     height: 330px;
@@ -272,14 +313,15 @@ section {
 }
 
 
-.produto-compra div{
-  
+.produto-compra div {
+
     float: left;
     width: 50%;
     padding: 1%;
-   
-     
+
+
 }
+
 /*  */
 
 /* .produto-info img {
@@ -290,19 +332,21 @@ section {
 .produto-filme,
 .produto-info,
 .produto-disco {
-    
+
     padding: 15px;
     background-color: var(--white);
     height: 330px;
     position: relative;
 
 }
+
 .produto-info p {
-    
+
     overflow: hidden;
     text-overflow: ellipsis;
-    
+
 }
+
 .produto-info div {
 
     float: left;
@@ -311,19 +355,21 @@ section {
 
 }
 
-.produto-noticia{
+.produto-noticia {
     position: relative;
 
 }
+
 .saibaMais {
     width: 100%;
     padding: 10px;
     position: absolute;
     bottom: 0px;
     left: 0;
-    
-  
+
+
 }
+
 /* .saibaMais a {
     color: var(--green);
     font-weight: 600;

@@ -136,6 +136,25 @@
     margin: auto;
 }
 
+/* Flex */
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center {
+
+    justify-content: center;
+}
+
+.justify-content-space-around {
+
+    justify-content: space-around;
+}
+
+.alighn-items-center {
+    align-items: center;
+}
+
 @media(max-width: 460px) {
     [class*="col-"] {
 
