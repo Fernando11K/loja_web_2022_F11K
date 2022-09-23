@@ -48,12 +48,8 @@ header {
     background-color: #dadada;
     padding-left: 10px;
     width: 35%;
-    border-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
-
-
 
 
 }
@@ -127,12 +123,20 @@ header {
 
 /* Início Nav */
 
+.menu button {
+    border: none;
+    color: var(--white);
+    background-color: #232E3E;
+}
+
+
+
 .menu a {
     color: var(--white);
     text-decoration: none;
     font-size: 1.0em;
-    padding: 10px;
-
+    padding: 5px;
+    git
 }
 
 
@@ -140,6 +144,15 @@ header {
 nav ul li {
 
     display: inline-block;
+
+
+}
+
+
+nav ul li:hover {
+
+    border: 1px solid var(--white);
+
 
 }
 
@@ -157,9 +170,10 @@ nav ul li {
 
 }
 
-.produtos-categoria-carousel-item {
 
-    height: 250px;
+.produtos-categoria-carousel {
+    position: relative;
+
 
 }
 
@@ -170,27 +184,28 @@ nav ul li {
 
 }
 
-.produtos-categoria-carousel {
-    position: relative;
+.produtos-categoria-carousel-item {
 
+    height: 250px;
 
 }
 
 .setas {
     position: absolute;
-    top: 90px;
+    top: 100px;
     font-size: 34px;
-    color: var(--white);
+    /* color: var(--black); */
     background-color: #ffffff55;
     width: 50px;
     height: 100px;
     padding-top: 25px;
+    padding-left: 5px;
 }
 
 .setas i {
     font-size: 54px;
     color: var(--white);
-    
+
 }
 
 .setas-right {
@@ -249,7 +264,7 @@ section {
     position: relative;
 }
 
-.produto-comum div {
+.produto-comum .foto {
     height: 60%;
     overflow: hidden;
     text-align: center;
@@ -271,7 +286,6 @@ section {
 
 }
 
-.produto-item div {}
 
 .produto-item span {
 
@@ -321,6 +335,17 @@ section {
 
 }
 
+.saiba-mais {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+
+}
+
+
+
 /*  */
 
 /* .produto-info img {
@@ -358,26 +383,5 @@ section {
     position: relative;
 
 }
-
-.saibaMais {
-    width: 100%;
-    padding: 10px;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-
-
-}
-
-/* .saibaMais a {
-    color: var(--green);
-    font-weight: 600;
-}
-
-.saibaMais a:hover {
-    color: var(orange);
-    text-decoration: underline;
-} */
-
 
 /* Fim Section */
