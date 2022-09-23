@@ -161,7 +161,7 @@ nav ul li:hover {
 
 /* Carousel */
 
-.carousel {
+.carousel  {
     height: 100%;
     min-height: 500px;
     background-image: url(/img/banner/propaganda.jpg);
@@ -188,6 +188,18 @@ nav ul li:hover {
 .produtos-categoria-carousel-item {
 
     height: 250px;
+ 
+
+}
+
+.produtos-categoria-carousel-item img{
+
+   
+   
+   border-radius: 50%;
+    height: 180px;
+    width: 200px;
+    padding: 8px;
 
 }
 
@@ -196,16 +208,17 @@ nav ul li:hover {
     top: 100px;
     font-size: 34px;
     /* color: var(--black); */
-    background-color: #ffffff55;
+    background-color: #ffffffbd;
     width: 50px;
     height: 100px;
     padding-top: 25px;
     padding-left: 5px;
+    border-radius: 28px;
 }
 
 .setas i {
     font-size: 54px;
-    color: var(--white);
+    color: var(--black);
 
 }
 
