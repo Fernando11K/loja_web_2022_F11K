@@ -122,6 +122,9 @@ header {
 /* Fim Header */
 
 /* Início Nav */
+nav {
+    height: 37px;
+}
 
 .menu button {
     border: none;
@@ -136,7 +139,7 @@ header {
     text-decoration: none;
     font-size: 1.0em;
     padding: 5px;
-    git
+
 }
 
 
