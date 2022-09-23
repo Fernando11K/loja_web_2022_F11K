@@ -168,6 +168,7 @@ nav ul li:hover {
     background-position: top;
     background-size: cover;
     position: relative;
+ 
 
 }
 
@@ -175,6 +176,7 @@ nav ul li:hover {
 .produtos-categoria-carousel {
     position: relative;
 
+    width: 1300px;
 
 }
 
