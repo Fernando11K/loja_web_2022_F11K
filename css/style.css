@@ -161,14 +161,14 @@ nav ul li:hover {
 
 /* Carousel */
 
-.carousel  {
+.carousel {
     height: 100%;
     min-height: 500px;
     background-image: url(/img/banner/propaganda.jpg);
     background-position: top;
     background-size: cover;
     position: relative;
- 
+
 
 }
 
@@ -176,7 +176,6 @@ nav ul li:hover {
 .produtos-categoria-carousel {
     position: relative;
 
-    width: 1300px;
 
 }
 
@@ -190,15 +189,14 @@ nav ul li:hover {
 .produtos-categoria-carousel-item {
 
     height: 250px;
- 
+
 
 }
 
-.produtos-categoria-carousel-item img{
+.produtos-categoria-carousel-item img {
 
-   
-   
-   border-radius: 50%;
+    overflow: hidden;
+    border-radius: 50%;
     height: 180px;
     width: 200px;
     padding: 8px;
