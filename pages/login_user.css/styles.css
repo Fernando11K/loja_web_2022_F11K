@@ -1,0 +1,106 @@
+body {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+
+    text-align: center;
+    padding-top: 14px;
+}
+
+header img {}
+
+
+section {
+    padding: 0px 14px 18px;
+
+}
+
+section div {}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caixa-login {
+
+    border: black solid 1px;
+    border-radius: 4px;
+    height: 317px;
+    width: 350px;
+    padding: 20px 26px;
+
+}
+
+.caixa-login h1 {
+
+    font-size: 28px;
+    padding-bottom: 4px;
+
+}
+
+.caixa-texto label {
+
+    font-weight: bolder;
+}
+
+.caixa-info {
+    margin-top: 10px;
+}
+
+.caixa-texto input {
+
+
+    border: rgba(0, 0, 0, 0.829) solid 1px;
+    margin: 1px;
+
+    padding: 3px 7px;
+    border-radius: 3px;
+
+    width: 100%;
+    height: 31px;
+
+}
+
+.caixa-texto input:hover {
+    outline: 3px solid gold;
+}
+
+.caixa-info .botao {
+
+
+
+    border: black solid 1px;
+    width: 100%;
+    padding: 1px 6px;
+    border-radius: 3px;
+    background-color: #F4D381;
+    height: 29px;
+}
+
+.caixa-info div {
+
+
+    font-size: 12px;
+    margin-top: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.need-help {
+    position: relative;
+    top: 50px;
+}
+
+.need-help a {
+
+
+    font-size: 13px;
+}
