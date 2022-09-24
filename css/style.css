@@ -8,6 +8,25 @@ body {
 
 }
 
+div::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+div::-webkit-scrollbar-track {
+    background: rgb(247, 243, 243);
+    /* color of the tracking area */
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: #232F3E;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    /* border: 3px solid #FF9901; */
+    /* creates padding around scroll thumb */
+}
+
 /* Header */
 header {
     background-color: var(--blue-dark);
@@ -185,25 +204,33 @@ nav ul li:hover {
 .produtos-categoria-carousel {
     position: relative;
     /* max-width: 991.95px; */
-    
+    padding-top: 2%;
+    padding-left: 2%;
 
- 
+
 
 }
 
 .produtos-categoria-carousel a {
     color: var(--black);
     font-size: 12px;
+    color: #007185;
     text-decoration: none;
-    color: #FFD815;
+    padding-left: 2px;
+
+}
 
 
+
+.produtos-categoria-carousel a:hover {
+    text-decoration: underline;
 }
 
 .produtos-categoria-carousel-item {
 
     height: 245px;
     overflow: auto;
+
 
 
 
