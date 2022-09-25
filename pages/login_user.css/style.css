@@ -1,0 +1,189 @@
+body {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+
+    text-align: center;
+    padding-top: 14px;
+}
+
+header img {}
+
+
+section {
+    padding: 0px 14px 18px;
+
+}
+
+section div {}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.caixa-login {
+
+    border: #ddd 1px solid;
+    border-radius: 4px;
+    height: 317px;
+    width: 350px;
+    padding: 20px 26px;
+
+}
+
+.caixa-login h1 {
+
+    font-size: 28px;
+    padding-bottom: 4px;
+
+}
+
+.caixa-info {
+    margin-top: 10px;
+}
+
+.caixa-texto label {
+
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+
+
+.caixa-texto input {
+
+
+    border: rgba(0, 0, 0, 0.829) solid 1px;
+    margin: 1px;
+
+    padding: 3px 7px;
+    border-radius: 3px;
+
+    width: 100%;
+    height: 31px;
+
+}
+
+.caixa-texto input:hover {
+    outline: 3px solid gold;
+}
+
+.caixa-info .botao {
+
+
+
+    border: black solid 1px;
+    width: 100%;
+    padding: 1px 6px;
+    border-radius: 3px;
+    background-color: #F4D381;
+    height: 29px;
+}
+
+.caixa-info div {
+
+
+    font-size: 12px;
+    margin-top: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.need-help {
+    position: relative;
+    top: 50px;
+}
+
+.need-help a {
+
+
+    font-size: 13px;
+}
+
+.rodape {
+    padding-top: 10px;
+}
+
+.rodape a {
+
+    font-size: 11px;
+    padding: 15px;
+}
+
+.botao-criar {
+
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.botao-criar div {}
+
+.botao-criar hr {
+
+    display: inline-block;
+    border: 0;
+    border-top: 1px solid #ddd;
+    width: 350px;
+
+
+
+}
+
+.botao-criar h5 {
+
+
+    position: relative;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 12px;
+
+    top: -9px;
+    padding: 0px 8px 0px 7px;
+    line-height: 1;
+    background-color: white;
+
+
+
+}
+
+.botao-criar span {}
+
+
+.botao-criar button {
+    height: 29px;
+    width: 350px;
+    background-color: #EFF1F3;
+    border: rgba(0, 0, 0, 0.829) solid 1px;
+    border-radius: 4px;
+
+
+}
+
+
+footer span {
+
+
+    text-align: center;
+    font-size: 11px;
+    background-color: #FEFEFE;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+footer hr {
+
+    border: 0;
+    border-top: 1px solid #ddd;
+}

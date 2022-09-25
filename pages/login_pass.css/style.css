@@ -1,0 +1,177 @@
+body {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+
+    text-align: center;
+    padding: 12px;
+}
+
+
+
+
+section {
+    padding: 0px 14px 18px;
+    font-size: 13px;
+
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.caixa-email {
+
+    font-size: 13px;
+    padding: 15px 3px;
+}
+
+.caixa-login-pass {
+
+    border: #ddd 1px solid;
+    border-radius: 4px;
+    height: 288px;
+    width: 350px;
+    padding: 20px 26px;
+
+}
+
+.caixa-login-pass h1 {
+
+    font-size: 28px;
+    padding-bottom: 10px;
+
+}
+
+
+.caixa-info {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.flex-texto {
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3px;
+
+
+
+}
+
+.caixa-texto label {
+
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+
+
+.caixa-texto input {
+
+
+    border: rgba(0, 0, 0, 0.829) solid 1px;
+    margin: 1px;
+
+    padding: 3px 7px;
+    border-radius: 3px;
+
+    width: 100%;
+    height: 31px;
+
+}
+
+.caixa-texto input:hover {
+    outline: 3px solid gold;
+}
+
+.caixa-info {
+
+    padding: 10px 0px;
+}
+
+.caixa-info .botao {
+
+
+
+    border: black solid 1px;
+    width: 100%;
+    padding: 5px 6px;
+    border-radius: 3px;
+    background-color: #F4D381;
+    height: 29px;
+}
+
+.checkbox {
+    padding: 0 8px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+
+
+
+
+
+.botao-criar h5 {
+
+
+
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 0px 8px 0px 7px;
+    background-color: white;
+
+
+}
+
+
+
+.botao-criar button {
+    height: 29px;
+    width: 350px;
+    background-color: #EFF1F3;
+    border: rgba(0, 0, 0, 0.829) solid 1px;
+    border-radius: 4px;
+
+
+}
+
+.rodape {
+    padding-top: 10px;
+}
+
+.rodape a {
+
+    font-size: 11px;
+    padding: 15px;
+}
+
+footer span {
+
+
+    text-align: center;
+    font-size: 11px;
+    background-color: #FEFEFE;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+footer hr {
+
+    border: 0;
+    border-top: 1px solid #ddd;
+}
