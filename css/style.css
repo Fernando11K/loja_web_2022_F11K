@@ -420,6 +420,7 @@ section {
     background-color: var(--white);
     height: 330px;
     position: relative;
+    
 
 }
 
@@ -442,5 +443,15 @@ section {
     position: relative;
 
 }
+
+.login-content-ajuda{
+    display: none;
+}
+
+.login-content-ajuda-opcao:hover {
+
+}
+
+
 
 /* Fim Section */
