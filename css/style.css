@@ -8,6 +8,11 @@ body {
 
 }
 
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 div::-webkit-scrollbar {
     width: 12px;
 
@@ -15,14 +20,14 @@ div::-webkit-scrollbar {
 
 div::-webkit-scrollbar-track {
     background: rgb(247, 243, 243);
-  
+
 }
 
 div::-webkit-scrollbar-thumb {
     background-color: #232F3E;
-    
+
     border-radius: 20px;
-   
+
 }
 
 /* Header */
@@ -70,7 +75,6 @@ header {
     background-color: #dadada;
     padding-left: 10px;
     width: 35%;
-    /* */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: 1px solid #cdcdcd;
@@ -79,10 +83,7 @@ header {
 }
 
 .formPesquisa input {
-    width: 48%;
-
-
-
+    /* width: 48%; */
 
 }
 
@@ -94,6 +95,7 @@ header {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: 1px solid #cdcdcd;
+    font-size: 13.333px;
 
 }
 
@@ -272,14 +274,14 @@ nav ul li:hover {
 }
 
 .setas-left {
-    left: 11px;
+    left: 26px;
 }
 
 /* Fim Carousel */
 
 /* Início section */
 
-section {
+.main-produto {
     background-image: linear-gradient(transparent, var(--grey)30%);
     position: relative;
     top: -250px;
@@ -420,7 +422,7 @@ section {
     background-color: var(--white);
     height: 330px;
     position: relative;
-    
+
 
 }
 
@@ -444,13 +446,11 @@ section {
 
 }
 
-.login-content-ajuda{
+.login-content-ajuda {
     display: none;
 }
 
-.login-content-ajuda-opcao:hover {
-
-}
+.login-content-ajuda-opcao:hover {}
 
 
 
