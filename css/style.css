@@ -1,20 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
-
-body {
-    font-family: var(--font-Arial);
-    font-size: var(--fs-12);
-    background-color: var(--grey);
-    color: var(--black);
-
-
-
-}
-
-h2 {
-    font-size: 18px;
-    font-weight: bold;
-}
 
 div::-webkit-scrollbar {
     width: 12px;
@@ -32,6 +17,28 @@ div::-webkit-scrollbar-thumb {
     border-radius: 20px;
 
 }
+
+body {
+    font-family: var(--font-ternary);
+    font-size: var(--fs-12);
+    background-color: var(--grey);
+    color: var(--black);
+
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-primary);
+}
+
+h2 {
+    font-size: var(--fs-lg);
+    font-weight: bold;
+}
+
+
 
 /* Header */
 header {
@@ -154,7 +161,7 @@ header {
 
 /* Início Nav */
 nav {
-    height: 37px;
+    /* height: 37px; */
 }
 
 .menu button {
@@ -169,21 +176,23 @@ nav {
     color: var(--white);
     text-decoration: none;
     font-size: 1.0em;
-    padding: 5px;
 
 }
 
 
+nav ul {
+    margin: 0%;
+}
 
 nav ul li {
     display: inline-block;
-
+    padding: 0 0.5%;
 }
 
 
-nav ul li:hover {
+nav li:hover {
 
-    border: 1px solid var(--white);
+    outline: 1px solid var(--white);
 
 
 }
