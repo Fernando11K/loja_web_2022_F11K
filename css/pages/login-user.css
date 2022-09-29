@@ -156,7 +156,9 @@ a {
 
 }
 
-.botao-criar span {}
+.botao-criar span {
+
+}
 
 
 .botao-criar button {
@@ -187,3 +189,4 @@ footer hr {
     border: 0;
     border-top: 1px solid #ddd;
 }
+

@@ -3,7 +3,7 @@
 }
 
 .bg-black {
-   background-color: var(--black);
+    background-color: var(--black);
 }
 
 .white {
@@ -11,8 +11,9 @@
 }
 
 .bg-white {
-    background-color: var(--white) ;
+    background-color: var(--white);
 }
+
 .grey {
 
     color: var(--grey);
@@ -22,8 +23,13 @@
     background-color: var(--grey);
 }
 
+.bd-grey {
+    border-color: var(--grey);
+}
+
+
 .gold {
-   color: var(--gold);
+    color: var(--gold);
 }
 
 .bg-gold {
