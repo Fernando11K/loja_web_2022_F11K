@@ -160,9 +160,6 @@ header {
 /* Fim Header */
 
 /* Início Nav */
-nav {
-    /* height: 37px; */
-}
 
 .menu button {
     border: none;
@@ -271,7 +268,7 @@ nav li:hover {
 }
 
 .setas:active {
-    border: 2px solid var(--black);
+    outline: 1px groove var(--black);
 }
 
 .setas i {
