@@ -33,11 +33,29 @@ h3 {
     font-family: var(--font-primary);
 }
 
-h2 {
-    font-size: var(--fs-lg);
-    font-weight: bold;
+h1 {
+    font-size: var(--fs-lg) !important;
+    font-weight: 600;
 }
 
+h2 {
+    font-size: var(--fs-md);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 /* Header */
