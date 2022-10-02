@@ -2,9 +2,23 @@
     border: solid 1px red;
 } */
 
+.fs-xs {
+    font-size: var(--fs-xs);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-xsm {
+    font-size: 0.7em;
+}
+
+
 li {
     list-style: none;
 }
+
 .cart {
 
     margin: 25px 0;
@@ -18,3 +32,4 @@ li {
     margin-bottom: 10px;
     padding: 20px;
 }
+

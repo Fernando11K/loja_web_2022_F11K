@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
 
 
+
     <link rel="stylesheet" href="../css/root.css">
     <link rel="stylesheet" href="../css/colors.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -23,8 +24,8 @@
     <main class="row cart">
         <section class="col-12 col-md-9 ">
             <div class="">
-                <h2 class="m-0">
-                    Carrinho de Produtos
+                <h2 class="m-0 fs-4">
+                    Carrinho de Compras
                 </h2>
                 <p class="border-bottom bd-grey text-end">
                     Preço
@@ -41,14 +42,14 @@
                             <li>
                                 <p> Mala de Viagem Samsonite Spin Air 55 Spn Exp Preto</p>
                             </li>
-                            <li><span>Em estoque</span></li>
+                            <li><span class="fs-xs text-success">Em estoque</span></li>
                             <li><span>
-                                    <p class="m-0">Elegível para Frete GRÁTIS</p>
+                                    <p class="m-0 fs-xs">Elegível para Frete GRÁTIS</p>
                                 </span></li>
                             <li>
-                                <div class="form-check py-0">
-                                    <input class="form-check-input" type="checkbox" value="" id="">
-                                    <label class="form-check-label" for="">
+                                <div class="form-check">
+                                    <input class="form-check-input " type="checkbox" value="" id="">
+                                    <label class="form-check-label fs-xs " for="">
                                         Este pedido é para presente
                                     </label>
                                 </div>
@@ -59,29 +60,28 @@
                         </ul>
 
 
-                        <!-- <div class="dropdown dropup">
-                            <button class="btn btn-outline-dark dropdown-toggle" type="button" id="triggerId"
+                        <div class="dropdown dropup d-md-inline">
+                            <button class="btn btn-outline-dark dropdown-toggle bg-grey" type="button" id="triggerId"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Qtd:
+                                Qtd: <span id="quantidade"></span>
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <div class="dropdown-menu " aria-labelledby="triggerId">
                                 <a class="dropdown-item py-0" href="#">0 (Excluir)</a>
                                 <div class="dropdown-divider p-0"></div>
-
-                                <a class="dropdown-item" href="#">1</a>
-                                <a class="dropdown-item" href="#">2</a>
-                                <a class="dropdown-item" href="#">3</a>
-                                <a class="dropdown-item" href="#">4</a>
-                                <a class="dropdown-item" href="#">6</a>
-                                <a class="dropdown-item" href="#">7</a>
-                                <a class="dropdown-item" href="#">8</a>
-                                <a class="dropdown-item" href="#">9</a>
+                                <a class="dropdown-item" href="">1</a>
+                                <a class="dropdown-item" href="">2</a>
+                                <a class="dropdown-item" href="">3</a>
+                                <a class="dropdown-item" href="">4</a>
+                                <a class="dropdown-item" href="">6</a>
+                                <a class="dropdown-item" href="">7</a>
+                                <a class="dropdown-item" href="">8</a>
+                                <a class="dropdown-item" href="">9</a>
                                 <div class="dropdown-divider p-0"></div>
                                 <a class="dropdown-item" href="#">10+</a>
                             </div>
-                        </div> -->
+                        </div>
 
-                        <span class="">Excluir</span> | <span class="">Salvar para mais tarde</span> |
+                        <span class="">| Excluir</span> | <span class="">Salvar para mais tarde</span> |
                         <span class="">Compartilhar</span>
                     </div>
 
@@ -93,7 +93,8 @@
                     </div>
                 </div>
                 <p class="text-end">
-                    Subtotal (2 itens): R$ 1.325,89
+
+                    Subtotal (2 itens): <span class="fw-bolder">R$ 1.343,80</span>
                 </p>
             </div>
 
@@ -102,9 +103,32 @@
             </div>
         </section>
 
+        <!-- Caixa lateral -->
         <aside class="col-12 col-md-3">
             <div>
-                Subtotal (2 itens): R$ 1.881,80
+
+                <div class="d-flex  ">
+
+                    <i class="far fa-check-circle text-success px-1"></i>
+
+                    <div class="fs-xsm p-0 "> <span class="text-success fw-bolder ">Seu pedido se qualifica para
+                            <b>Frete
+                                GRÁTIS.</b></span>
+                        Selecione Frete GRÁTIS ao
+                        finalizar o pedido. <a class="text-success">Veja detalhes.</a></div>
+
+                </div>
+                <div class="py-1">
+
+                    Subtotal (2 itens): <span class="fw-bolder">R$ 1.343,80</span>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input " type="checkbox" value="" id="">
+                    <label class="form-check-label fs-sm " for="">
+                        Este pedido contém um presente
+                    </label>
+                </div>
+                <span><button type="text" class="btn btn-warning w-100 fs-sm">Fechar pedido</button></span>
             </div>
             <div>
                 Clientes que se interessaram por Mala de Viagem Samsonite Spin Air 55 Spn Exp Preto também compraram
@@ -117,5 +141,7 @@
 <script src="../libs/js/bootstrap.min.js"></script>
 <script src="../libs/js/bootstrap.bundle.min.js"></script>
 <script src="../libs/js/popper.min.js"></script>
+
+
 
 </html>
